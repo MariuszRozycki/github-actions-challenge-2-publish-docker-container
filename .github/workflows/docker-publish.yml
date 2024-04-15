@@ -25,6 +25,10 @@ env:
 jobs:
   integration:
     uses: MariuszRozycki/github-actions-challenge-2-python-apps/.github/workflows/python-app.yml@main
+    permissions:
+      contents: read
+      packages: write
+    
   build:
     needs: [integration]
 
