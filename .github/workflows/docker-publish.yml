@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: https://github.com/MariuszRozycki/github-actions-challenge-2-python-apps/.github/workflows/python-app.yml@main
+    uses: MariuszRozycki/github-actions-challenge-2-python-apps/.github/workflows/python-app.yml@main
   build:
     needs: [integration]
 
